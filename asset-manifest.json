@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/iFLY/static/css/main.270632bd.css",
+    "main.js": "/iFLY/static/js/main.547a687e.js",
+    "static/media/plane.png": "/iFLY/static/media/plane.4d02088ecd1386dabbee.png",
+    "static/media/Cloudy-0W244.ttf": "/iFLY/static/media/Cloudy-0W244.fb1df671bb863ae235dc.ttf",
+    "index.html": "/iFLY/index.html",
+    "static/media/wavebg.svg": "/iFLY/static/media/wavebg.da0949d825f0b66d7cfb.svg",
+    "main.270632bd.css.map": "/iFLY/static/css/main.270632bd.css.map",
+    "main.547a687e.js.map": "/iFLY/static/js/main.547a687e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.270632bd.css",
+    "static/js/main.547a687e.js"
+  ]
+}
