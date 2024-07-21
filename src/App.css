@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-size: 18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* https://www.fontspace.com/category/cloudy (cloudy by JoannaVu) */
+@font-face {
+  font-family: cloudy;
+  src: url(assets/Cloudy-0W244.ttf);
+}
+.cloudy {
+  font-family: cloudy;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.padded {
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.plane-img {
+  object-fit: cover;
+  overflow: visible;
+  max-width: 90vw;
+  min-height: 55vh;
+
+  position: absolute;
+  transform: translate(-50%, 0%);
+  bottom: 0;
+  left: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.wavetop {
+  background: url(assets/wavebg.svg) no-repeat top;
+}
+.wavecolor {
+  background-color: hsl(205, 100%, 85%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.logo {
+  font-family: Inter;
+  font-size: 250px;
+  font-weight: 750;
+}
+
+.slogan {
+  font-size: 55px;
+  /* font-weight: bold; */
+  max-width: 35vw;
 }
