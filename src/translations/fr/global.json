@@ -1,0 +1,152 @@
+{
+    "navlinks": {
+        "popular": "Destinations Populaires",
+        "reviews": "Commentaires",
+        "plan": "Planifier"
+    },
+    "home": {
+        "slogan1": "Le ",
+        "slogan-cloud": "ciel",
+        "slogan2": " est votre limite!",
+        "learn-more": "En Savoir Plus",
+        "about": "A Propos",
+        "description": "Basée à l'aéroport de Rockcliffe, dans l'est d'Ottawa, la mission d'iFLY est de vous offrir une flexibilité inégalée lorsqu'il s'agit de réserver l'aventure en plein air de vos rêves. La liberté de voler vous permet de voyager vers de nouvelles destinations que vous n'auriez jamais cru possibles ou de visiter vos favoris avec style ! Nous vous mettrons en contact avec les meilleurs pilotes d'hydravions pour vous offrir le voyage le plus sûr possible. Que vous recherchiez votre prochain grand voyage de pêche ou que vous souhaitiez planifier votre prochain voyage de camping à distance et tout ce qui se trouve entre les deux, iFLY a ce qu'il vous faut. Tout ce que vous avez à faire est de vous rendre sur la page de réservation, d'indiquer votre destination et la quantité de matériel que vous prévoyez d'apporter et vous recevrez un prix indiqué sur place. Une fois que vous serez satisfait, nos pilotes examineront votre voyage et communiqueront avec vous afin de finaliser les détails et c'est tout! J'espère que nous vous reverrons bientôt dans les airs!"
+    },
+    "destinations": {
+        "title": "Destinations Populaires",
+        "filter": "Filtrer",
+        "lotw": {
+            "name": "Lac des Bois",
+            "description": "Situé dans les régions frontalières de l'Ontario, du Manitoba et du Minnesota, le lac des Bois est un immense lac d'eau douce connu pour sa beauté époustouflante et sa faune abondante. S'étendant sur plus de 70 milles, il abrite plus de 14000 îles et 65000 milles de rivage. Le lac est un paradis pour les pêcheurs, offrant une riche variété d'espèces de poissons comme le doré, le grand brochet et l'achigan à petite bouche. La navigation de plaisance et le kayak sont des activités populaires, permettant aux visiteurs d'explorer les nombreuses criques et criques. Les forêts environnantes sont luxuriantes et regorgent d'animaux sauvages, offrant d'excellentes possibilités de randonnée, de camping et d'observation des oiseaux. Avec ses paysages pittoresques et ses diverses possibilités récréatives, le Lac des Bois est une destination de choix pour les amateurs de plein air."
+        },
+        "gsl": {
+            "name": "Grand Lac des Esclaves",
+            "description": "Situé dans les Territoires du Nord-Ouest du Canada, le Grand Lac des Esclaves est le deuxième plus grand lac du pays et le plus profond d'Amérique du Nord. Ses eaux cristallines atteignent des profondeurs de plus de 2000 pieds, ce qui en fait un lieu privilégié pour la pêche, notamment au touladi, au grand brochet et à l'ombre arctique. La nature sauvage et isolée du lac est en grande partie intacte, offrant un environnement vierge pour le camping, la randonnée et l'observation de la faune. Les visiteurs peuvent également explorer les cultures et communautés autochtones dynamiques autour du lac. Que vous soyez en train de lancer une ligne, de pagayer en kayak ou simplement d'admirer des vues à couper le souffle, le Grand Lac des Esclaves offre une aventure en plein air vraiment inoubliable."
+        },
+        "algoma": {
+            "name": "Région Algoma",
+            "description": "La région d'Algoma en Ontario est réputée pour ses paysages à couper le souffle, notamment des forêts denses, des lacs étincelants et des falaises escarpées. S'étendant du lac Huron jusqu'à la nature sauvage du nord, cette région offre une gamme diversifiée d'activités de plein air telles que la pêche, le canoë, la randonnée et la photographie animalière. La région est célèbre pour son feuillage d'automne, où les forêts explosent de couleurs vives, offrant une toile de fond époustouflante pour toute activité de plein air. La beauté des paysages et la tranquillité d'Algoma en font une escapade parfaite pour les aventuriers et les amoureux de la nature. La région est également riche en histoire et culture autochtones, offrant aux visiteurs l'occasion d'en apprendre davantage sur les traditions et le patrimoine des peuples des Premières Nations."
+        },
+        "algonquin": {
+            "name": "Parc Algonquin",
+            "description": "Le parc Algonquin, situé en Ontario, est l'un des parcs provinciaux les plus célèbres du Canada, s'étendant sur près de 8000 kilomètres carrés. Cette vaste région sauvage offre une myriade d'activités de plein air, notamment le canotage sur son vaste réseau de lacs et de rivières, la randonnée pédestre dans ses nombreux sentiers et le camping dans l'un de ses nombreux campings. Le parc abrite une faune diversifiée, notamment des élans, des ours noirs, des loups et diverses espèces d'oiseaux. Les visiteurs peuvent explorer les paysages époustouflants du parc, des forêts denses aux prairies ouvertes et aux crêtes rocheuses. Le parc Algonquin est également un endroit idéal pour observer les étoiles, avec son ciel sombre offrant une vue dégagée sur le ciel nocturne. Que vous pagayiez dans des eaux sereines, parcouriez des sentiers panoramiques ou simplement vous détendiez près d'un feu de camp, le parc Algonquin offre une expérience sauvage par excellence au Canada."
+        },
+        "goin": {
+            "name": "Réservoir Goin",
+            "description": "Le réservoir Gouin au Québec est un grand lac artificiel créé par la construction du barrage Gouin. Couvrant plus de 1700 kilomètres carrés, elle est reconnue pour ses excellentes possibilités de pêche, notamment pour le doré et le grand brochet. Les vastes eaux du réservoir et ses nombreuses îles offrent un cadre pittoresque pour la navigation de plaisance et le camping. L'emplacement isolé et l'environnement vierge en font une destination idéale pour ceux qui recherchent une retraite paisible au cœur de la nature. En plus de la pêche, les visiteurs peuvent faire du canoë, du kayak et explorer les forêts environnantes. La région abrite également une faune variée, ce qui en fait un endroit idéal pour la photographie de la nature et l'observation des oiseaux. Avec ses eaux tranquilles et sa beauté préservée, le Réservoir Gouin offre une évasion parfaite de l'agitation de la vie quotidienne."
+        },
+        "ws": {
+            "name": "Parc Whiteshell",
+            "description": "Le parc provincial Whiteshell, situé au Manitoba, est un joyau naturel composé de lacs aux eaux cristallines, de forêts denses et de terrains rocheux. S'étendant sur plus de 2700 kilomètres carrés, le parc propose un large éventail d'activités, notamment la natation, la pêche, la randonnée et l'observation des oiseaux. Les nombreux lacs et rivières du parc sont parfaits pour la navigation de plaisance, le canoë et le kayak, tandis que son vaste réseau de sentiers offre d'excellentes possibilités de randonnée et de vélo. Le parc Whiteshell est également connu pour ses belles plages et ses aires de pique-nique, ce qui en fait un endroit populaire pour les sorties en famille. Les divers écosystèmes du parc abritent une faune variée, notamment des cerfs, des ours noirs et plus de 200 espèces d'oiseaux. Avec ses paysages époustouflants et ses nombreuses possibilités récréatives, le parc Whiteshell est une destination idéale pour ceux qui souhaitent explorer les grands espaces et découvrir la tranquillité de la nature."
+        },
+        "tags": {
+            "fishing": "pêche",
+            "hunting": "chasse",
+            "camping": "camping",
+            "hiking": "randonnée",
+            "lodge": "loge",
+            "campsite": "terrains de camping",
+            "crownland": "terres de la couronne",
+            "hotel": "hôtel",
+            "spring": "printemps",
+            "summer": "été",
+            "fall": "automne",
+            "winter": "hiver"
+        },
+        "offcanvas": {
+            "title": "Filtres",
+            "section1": "Activités",
+            "section2": "Accomodations Disponibles",
+            "section3": "Saisons",
+            "button": "Appliquer"
+        }
+    },
+    "reviews": {
+        "title": "Commentaires",
+        "write": "Écrire un Commentaires",
+        "select": {
+            "sort-by": "Trier Par",
+            "recent": "Récent",
+            "highest": "Plus Haut",
+            "lowest": "Plus Bas"
+        },
+        "1": {
+            "title": "Expérience Horrible",
+            "description": "Notre vol a été annulé à la dernière minute et nous avons dû reprogrammer l'intégralité de notre voyage. Aucune communication appropriée de la part de l'entreprise. Je ne recommanderais leur service à personne."
+        },
+        "2": {
+            "title": "Expérience Décente",
+            "description": "L'hydravion était un peu à l'étroit, mais il nous a amenés à notre destination de camping en toute sécurité. Le pilote a été utile, mais le service aurait besoin d'être peaufiné. Dans l'ensemble, une expérience correcte."
+        },
+        "3": {
+            "title": "Voyage de Pêche Mémorable",
+            "description": "Nous avons attrapé tellement de poissons grâce au pilote expérimenté. Le trajet en avion était confortable et l'équipement fourni était de premier ordre. J'aimerais juste que le voyage soit un peu plus long!"
+        },
+        "4": {
+            "title": "Ne Vaut Pas son Argent",
+            "description": "J'avais de grandes attentes, mais j'ai été déçu. L'avion était vieux et le pilote n'était pas très sympathique. Le voyage de camping en lui-même s'est bien passé, mais le transport a été une énorme déception."
+        },
+        "5": {
+            "title": "Bien Mais Pourrait Être Meilleur",
+            "description": "Le trajet en hydravion était agréable, mais la communication avant le voyage pourrait être améliorée. Une fois dans les airs, tout s'est bien passé et nous avons passé un bon moment à pêcher."
+        },
+        "6": {
+            "title": "Pittoresque et Serein",
+            "description": "Nous avons affrété un avion pour un séjour en camping et ce fut une expérience fantastique. Les vues d'en haut étaient à couper le souffle et l'atterrissage sur le lac s'est déroulé sans problème. Je réserverai certainement à nouveau!"
+        },
+        "7": {
+            "title": "Aurait Pu Être Mieux",
+            "description": "Notre randonnée a commencé de manière difficile avec un vol retardé. Le paysage était beau, mais le service global laissait beaucoup à désirer. J'espère qu'ils s'amélioreront à l'avenir."
+        },
+        "8": {
+            "title": "Excellent Service et Expérience",
+            "description": "Nous avons passé un merveilleux moment en randonnée grâce à la location d'hydravions. Le pilote était sympathique et informatif. Le seul inconvénient était la météo, mais ce n'est pas de leur faute. Bref, un super voyage!"
+        },
+        "9": {
+            "title": "Aventure Incroyable!",
+            "description": "Notre voyage de pêche était inoubliable ! Le vol en hydravion s'est déroulé sans problème et le pilote connaissait très bien les meilleurs endroits. Je recommande vivement ce service à tout amateur de plein air!"
+        },
+        "modal": {
+            "modal-title": "Écrire un Commentaire",
+            "title": "Titre",
+            "rating": "Évaluation par Étoile",
+            "review": "Commentaire",
+            "cancel": "Annuler",
+            "post": "Publier"
+        }
+    },
+    "booking": {
+        "return": "Retour à l'Accueil",
+        "title": "Planifier un Voyage",
+        "form": {
+            "contact": {
+                "label": "Nom du Contact",
+                "placeholder": "John Doe"
+            },
+            "email": {
+                "label": "E-mail",
+                "placeholder": "johndoe@email.com"
+            },
+            "destination": {
+                "label": "Destination",
+                "placeholder": "Latitude, Longitude",
+                "tooltip": "Sélectionnez la destination souhaitée en saisissant ses coordonnées GPS (exemple : 45.462817, -75.642569) ou en cliquant sur la destination souhaitée sur la carte."
+            },
+            "pass-num": {
+                "label": "Nombre de Passagers",
+                "tooltip": "Veuillez noter que nos avions n'ont une capacité que pour 5 autres passagers. Afin d'accueillir plus de passagers, veuillez réserver un deuxième vol."
+            },
+            "gear": {
+                "label": "Estimation du Poid de l'Équipement",
+                "tooltip": "Le poids de votre équipement est pris en compte pour le prix de votre vol jusqu'à un maximum de 100lbs, voir forfaits ci-dessous:<ul><li>Voyageur Minimal (<50lbs): 25$</li><li>Voyageur Plus (>50lbs) : 55$</li></ul>"
+            },
+            "one-way": "Sens Unique",
+            "round-trip": "Aller-Retour",
+            "depart": "Date de Départ",
+            "return": "Date de Retour",
+            "estimate": "Prix Estimé: ",
+            "request-btn": "Envoyer"
+        },
+        "alert": "Réservation demandée!\nUn pilote vous contactera bientôt par e-mail au sujet de votre voyage."
+    }
+}

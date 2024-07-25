@@ -1,9 +1,13 @@
 import { APIProvider, Map, AdvancedMarker, Pin } from "@vis.gl/react-google-maps"
 import HintButton from "../components/HintButton"
+import LanguageSelector from "../components/LanguageSelector";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 function BookingPage() {
+    const [t, ] = useTranslation("global")
+
     const origin = {lat: 45.462817, lng: -75.642569}
     const [estimate, setEstimate] = useState(0)
     const [destination, setDestination] = useState(null)
@@ -70,16 +74,17 @@ function BookingPage() {
         <div>
             <div className="d-flex">
                 <div className="d-flex flex-column vh-100 overflow-scroll px-4" style={{minWidth:"350px" ,width:"35%", maxWidth:"500px"}}>
-                    <div className="navbar">
+                    <div className="navbar bg-white position-sticky top-0 z-3">
                         <Link className="icon-link icon-link-hover" style={{"--bs-icon-link-transform": "translate3d(-.25rem, 0, 0)"}} to="/">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-left" viewBox="0 0 16 16">
                                 <path fillRule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
                             </svg>
-                            Return Home
+                            {t("booking.return")}
                         </Link>
+                        <LanguageSelector />
                     </div>
                     <div className="mt-1">
-                        <h3>Plan Trip</h3>
+                        <h3>{t("booking.title")}</h3>
                         <hr style={{
                             width:"65px",
                             borderTop: "5px solid rgb(33, 37, 41)",
@@ -89,49 +94,51 @@ function BookingPage() {
                     </div>
                     <form className="d-flex flex-column" onSubmit={(e) => {
                         e.preventDefault()
-                        alert("Booking Requested!\nA pilot will contact you regarding your trip via email soon.")
+                        alert(t("booking.alert"))
+                        setEstimate(0)
+                        document.getElementById("return").disabled = false
                         e.target.reset()
                     }}>
-                        <label className="form-label" htmlFor="contact">Contact Name</label>
-                        <input className="form-control mb-1" type="text" id="contact" placeholder="John Doe" required />
-                        <label className="form-label" htmlFor="email">Email</label>
-                        <input type="email" id="email" className="form-control" placeholder="johndoe@email.com" required />
+                        <label className="form-label" htmlFor="contact">{t("booking.form.contact.label")}</label>
+                        <input className="form-control mb-1" type="text" id="contact" placeholder={t("booking.form.contact.placeholder")} required />
+                        <label className="form-label" htmlFor="email">{t("booking.form.email.label")}</label>
+                        <input type="email" id="email" className="form-control" placeholder={t("booking.form.email.placeholder")} required />
                         <hr />
-                        <label className="form-label" htmlFor="destination">Destination</label>
+                        <label className="form-label" htmlFor="destination">{t("booking.form.destination.label")}</label>
                         <div className="d-flex mb-1">
-                            <input type="text" className="form-control" id="destination" onInput={handleDstInput} placeholder="Lattitude, Longitude" pattern="^(-?([1-8]?\d(\.\d+)?|90(\.0+)?)),\s*(-?((1[0-7]\d(\.\d+)?|180(\.0+)?|([1-9]?\d(\.\d+)?))))$" required />
-                            <HintButton placement="right" content="Select your desired destination by entering its GPS coordinates (example: 45.462817, -75.642569) or by clicking on your desired destination on the map." />
+                            <input type="text" className="form-control" id="destination" onInput={handleDstInput} placeholder={t("booking.form.destination.placeholder")} pattern="^(-?([1-8]?\d(\.\d+)?|90(\.0+)?)),\s*(-?((1[0-7]\d(\.\d+)?|180(\.0+)?|([1-9]?\d(\.\d+)?))))$" required />
+                            <HintButton placement="right" content={t("booking.form.destination.tooltip")} />
                         </div>
-                        <label className="form-label" htmlFor="passengernum">Number of Passengers</label>
+                        <label className="form-label" htmlFor="passengernum">{t("booking.form.pass-num.label")}</label>
                         <div className="d-flex mb-1">
                             <input type="number" id="passengernum" onInput={calculateEstimate} className="form-control" min={1} max={5} required />
-                            <HintButton placement="right" content="Please note our planes only have capacity for 5 other passengers. In order to accomodate more passengers please book a second flight." />
+                            <HintButton placement="right" content={t("booking.form.pass-num.tooltip")} />
                         </div>
-                        <label className="form-label" htmlFor="weightinput">Estimated Weight of Gear</label>
+                        <label className="form-label" htmlFor="weightinput">{t("booking.form.gear.label")}</label>
                         <div className="d-flex">
                             <div className="input-group">
                                 <input type="number" id="weightinput" onInput={calculateEstimate} className="form-control" min={0} max={100} required />
                                 <span className="input-group-text">lbs</span>
                             </div>
-                            <HintButton placement="right" content="The weight of your gear is taken into account for the price of your flight up to a maximum of 100lbs, see packages below:<ul><li>Light Traveler (<50lbs): 25$</li><li>Traveler Plus (>50lbs): 55$</li></ul>" />
+                            <HintButton placement="right" content={t("booking.form.gear.tooltip")} />
                         </div>
                         <hr />
                         <div className="d-flex justify-content-evenly">
                             <div className="form-check form-check-inline">
                                 <input type="radio" className="form-check-input" id="radio1" name="triptype" onClick={() => document.getElementById("return").disabled = true} required/>
-                                <label className="form-check-label" htmlFor="radio1">One Way</label>
+                                <label className="form-check-label" htmlFor="radio1">{t("booking.form.one-way")}</label>
                             </div>
                             <div className="form-check form-check-inline">
                                 <input type="radio" className="form-check-input" id="radio2" name="triptype" onClick={() => document.getElementById("return").disabled = false} />
-                                <label className="form-check-label" htmlFor="radio2">Round Trip</label>
+                                <label className="form-check-label" htmlFor="radio2">{t("booking.form.round-trip")}</label>
                             </div>
                         </div>
-                        <label className="form-label" htmlFor="depart">Depature</label>
+                        <label className="form-label" htmlFor="depart">{t("booking.form.depart")}</label>
                         <input className="form-control mb-1" type="date" name="" id="depart" required />
-                        <label className="form-label" htmlFor="return">Return</label>
+                        <label className="form-label" htmlFor="return">{t("booking.form.return")}</label>
                         <input className="form-control" type="date" name="" id="return" required />
-                        <p className="mt-3 fw-bold fs-5" >Estimate price: { estimate }$</p>
-                        <button type="submit" className="btn btn-primary mx-auto mb-2">Request Booking</button>
+                        <p className="mt-3 fw-bold fs-5" >{t("booking.form.estimate")}{ estimate }$</p>
+                        <button type="submit" className="btn btn-primary mx-auto mb-2">{t("booking.form.request-btn")}</button>
                     </form>
                 </div>
                 <div className="vh-100 w-75">
@@ -152,7 +159,7 @@ function BookingPage() {
                                 position={ origin }
                                 title={'Departure marker'}>
                                 <Pin
-                                    background={'#0099ff'}
+                                    background={'#0d6efd'}
                                     borderColor={'white'}
                                     scale={1.5}>
                                     {/* source: https://www.svgrepo.com/show/352352/plane-departure.svg */}
@@ -165,7 +172,7 @@ function BookingPage() {
                                     position={ destination }
                                     title={'Arrival marker'}>
                                     <Pin
-                                        background={'#0099ff'}
+                                        background={'#0d6efd'}
                                         borderColor={'white'}
                                         scale={1.5}>
                                         {/* source: https://www.svgrepo.com/show/352351/plane-arrival.svg */}

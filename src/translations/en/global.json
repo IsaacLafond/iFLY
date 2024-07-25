@@ -1,0 +1,152 @@
+{
+    "navlinks": {
+        "popular": "Popular Destinations",
+        "reviews": "Reviews",
+        "plan": "Plan"
+    },
+    "home": {
+        "slogan1": "The ",
+        "slogan-cloud": "sky",
+        "slogan2": " is the limit!",
+        "learn-more": "Learn More",
+        "about": "About",
+        "description": "Based out of the Rockcliffe Airport found in Ottawa's east end, iFLY's mission is to provide you with unparalled flexibility when it comes to booking your dream outdoor adventure. The freedom of flying allows you to travel to new destinations you never thought possible or to visit your favorites in style! We'll connect you with best in class float plane pilots to provide the safest journey possible. Whether you're looking for your next big fishing trip or want are planning your next remote camping trip and anything in between, iFLY has you covered. All you have to do is head to the booking page enter your destination and amount of gear you plan on bringing and you'll be given a quoted price on the spot. Once you're satisfied we'll have our pilots review your trip and connect with you in order to finalize the details and that's it! Hopefully we'll see you in the air soon!"
+    },
+    "destinations": {
+        "title": "Popular Destinations",
+        "filter": "Filter",
+        "lotw": {
+            "name": "Lake of the Woods",
+            "description": "Located in the border regions of Ontario, Manitoba, and Minnesota, Lake of the Woods is a massive freshwater lake known for its stunning beauty and abundant wildlife. Spanning over 70 miles, it is home to more than 14,000 islands and 65,000 miles of shoreline. The lake is a paradise for anglers, offering a rich variety of fish species such as walleye, northern pike, and smallmouth bass. Boating and kayaking are popular activities, allowing visitors to explore the many coves and inlets. The surrounding forests are lush and full of wildlife, providing excellent opportunities for hiking, camping, and birdwatching. With its scenic landscapes and diverse recreational opportunities, Lake of the Woods is a top destination for outdoor enthusiasts."
+        },
+        "gsl": {
+            "name": "Great Slave Lake",
+            "description": "Situated in Canada's Northwest Territories, Great Slave Lake is the second-largest lake in the country and the deepest in North America. Its crystal-clear waters reach depths of over 2,000 feet, making it a prime spot for fishing, particularly for lake trout, northern pike, and Arctic grayling. The lake's remote and rugged wilderness is largely untouched, offering a pristine environment for camping, hiking, and wildlife viewing. Visitors can also explore the vibrant Indigenous cultures and communities around the lake. Whether you're casting a line, paddling in a kayak, or simply taking in the breathtaking views, Great Slave Lake offers a truly unforgettable outdoor adventure."
+        },
+        "algoma": {
+            "name": "Algoma Region",
+            "description": "The Algoma Region in Ontario is renowned for its breathtaking landscapes, including dense forests, sparkling lakes, and rugged cliffs. Stretching from Lake Huron to the northern wilderness, this area offers a diverse range of outdoor activities such as fishing, canoeing, hiking, and wildlife photography. The region is famous for its fall foliage, where the forests explode in vibrant colors, providing a stunning backdrop for any outdoor activity. Algoma's scenic beauty and tranquility make it a perfect getaway for adventurers and nature lovers alike. The area is also rich in Indigenous history and culture, offering visitors a chance to learn about the traditions and heritage of the First Nations peoples."
+        },
+        "algonquin": {
+            "name": "Algonquin Park",
+            "description": "Algonquin Park, located in Ontario, is one of Canada's most famous provincial parks, spanning nearly 8,000 square kilometers. This vast wilderness area offers a myriad of outdoor activities, including canoeing on its extensive network of lakes and rivers, hiking through its numerous trails, and camping in one of its many campsites. The park is home to diverse wildlife, including moose, black bears, wolves, and a variety of bird species. Visitors can explore the park's stunning landscapes, from dense forests to open meadows and rocky ridges. Algonquin Park is also a great place for stargazing, with its dark skies offering clear views of the night sky. Whether you're paddling through serene waters, hiking scenic trails, or simply relaxing by a campfire, Algonquin Park offers a quintessential Canadian wilderness experience."
+        },
+        "goin": {
+            "name": "Goin Reservoir",
+            "description": "Gouin Reservoir in Quebec is a large man-made lake created by the construction of the Gouin Dam. Covering over 1,700 square kilometers, it is known for its excellent fishing opportunities, particularly for walleye and northern pike. The reservoir's vast waters and numerous islands provide a picturesque setting for boating and camping. The remote location and pristine environment make it an ideal destination for those seeking a peaceful retreat in the heart of nature. In addition to fishing, visitors can enjoy canoeing, kayaking, and exploring the surrounding forests. The area is also home to a variety of wildlife, making it a great spot for nature photography and birdwatching. With its tranquil waters and unspoiled beauty, Gouin Reservoir offers a perfect escape from the hustle and bustle of everyday life."
+        },
+        "ws": {
+            "name": "Whiteshell Park",
+            "description": "Whiteshell Provincial Park, located in Manitoba, is a natural gem featuring crystal-clear lakes, dense forests, and rocky terrain. Spanning over 2,700 square kilometers, the park offers a wide range of activities, including swimming, fishing, hiking, and birdwatching. The park's numerous lakes and rivers are perfect for boating, canoeing, and kayaking, while its extensive trail system provides excellent hiking and biking opportunities. Whiteshell Park is also known for its beautiful beaches and picnic areas, making it a popular spot for family outings. The park's diverse ecosystems support a variety of wildlife, including deer, black bears, and over 200 species of birds. With its stunning landscapes and wealth of recreational opportunities, Whiteshell Park is a perfect destination for those looking to explore the great outdoors and experience the tranquility of nature."
+        },
+        "tags": {
+            "fishing": "fishing",
+            "hunting": "hunting",
+            "camping": "camping",
+            "hiking": "hiking",
+            "lodge": "lodge",
+            "campsite": "campsite",
+            "crownland": "crownland",
+            "hotel": "hotel",
+            "spring": "spring",
+            "summer": "summer",
+            "fall": "fall",
+            "winter": "winter"
+        },
+        "offcanvas": {
+            "title": "Filters",
+            "section1": "Activities",
+            "section2": "Nearby Accomodations",
+            "section3": "Seasons",
+            "button": "Apply"
+        }
+    },
+    "reviews": {
+        "title": "Reviews",
+        "write": "Write Review",
+        "select": {
+            "sort-by": "Sort By",
+            "recent": "Recent",
+            "highest": "Highest",
+            "lowest": "Lowest"
+        },
+        "1": {
+            "title": "Horrible Experience",
+            "description": "Our flight was cancelled last minute, and we had to reschedule our entire trip. No proper communication from the company. Would not recommend their service to anyone."
+        },
+        "2": {
+            "title": "Decent Experience",
+            "description": "The float plane was a bit cramped, but it got us to our camping destination safely. The pilot was helpful, but the service could use some fine-tuning. Overall, an okay experience."
+        },
+        "3": {
+            "title": "Memorable Fishing Trip",
+            "description": "We caught so many fish thanks to the knowledgeable pilot. The plane ride was comfortable, and the equipment provided was top-notch. Just wish the trip was a bit longer!"
+        },
+        "4": {
+            "title": "Not Worth the Money",
+            "description": "Had high expectations, but was let down. The plane was old, and the pilot was not very friendly. The camping trip itself was fine, but the transportation was a huge letdown."
+        },
+        "5": {
+            "title": "Good but Could Be Better",
+            "description": "The float plane ride was enjoyable, but the communication prior to the trip could use improvement. Once in the air, everything was great, and we had a fun time fishing."
+        },
+        "6": {
+            "title": "Scenic and Serene",
+            "description": "We chartered a plane for a camping trip, and it was a fantastic experience. The views from above were breathtaking, and the landing on the lake was seamless. Will definitely book again!"
+        },
+        "7": {
+            "title": "Could Have Been Better",
+            "description": "Our hiking trip started off rocky with a delayed flight. The scenery was nice, but the overall service left much to be desired. Hope they improve in the future."
+        },
+        "8": {
+            "title": "Great Service and Experience",
+            "description": "Had a wonderful time hiking thanks to the float plane charter. The pilot was friendly and informative. Only drawback was the weather, but that's not their fault. Overall, a great trip!"
+        },
+        "9": {
+            "title": "Amazing Adventure!",
+            "description": "Our fishing trip was unforgettable! The float plane ride was smooth, and the pilot was very knowledgeable about the best spots. Highly recommend this service for any outdoor enthusiast!"
+        },
+        "modal": {
+            "modal-title": "Write a Review",
+            "title": "Title",
+            "rating": "Star Rating",
+            "review": "Review",
+            "cancel": "Cancel",
+            "post": "Post"
+        }
+    },
+    "booking": {
+        "return": "Return Home",
+        "title": "Plan Trip",
+        "form": {
+            "contact": {
+                "label": "Contact Name",
+                "placeholder": "John Doe"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "johndoe@email.com"
+            },
+            "destination": {
+                "label": "Destination",
+                "placeholder": "Latitude, Longitude",
+                "tooltip": "Select your desired destination by entering its GPS coordinates (example: 45.462817, -75.642569) or by clicking on your desired destination on the map."
+            },
+            "pass-num": {
+                "label": "Number of Passengers",
+                "tooltip": "Please note our planes only have capacity for 5 other passengers. In order to accommodate more passengers please book a second flight."
+            },
+            "gear": {
+                "label": "Estimated Weight of Gear",
+                "tooltip": "The weight of your gear is taken into account for the price of your flight up to a maximum of 100lbs, see packages below:<ul><li>Light Traveler (<50lbs): 25$</li><li>Traveler Plus (>50lbs): 55$</li></ul>"
+            },
+            "one-way": "One Way",
+            "round-trip": "Round Trip",
+            "depart": "Departure Date",
+            "return": "Return Date",
+            "estimate": "Estimate Price: ",
+            "request-btn": "Request Booking"
+        },
+        "alert": "Booking Requested!\nA pilot will contact you regarding your trip via email soon."
+    }
+}
