@@ -106,7 +106,7 @@ function ReviewsPage() {
                     </div>
                     <div className="d-flex flex-wrap justify-content-between">
                         {reviews.map((review) => (
-                            <ReviewCard key={review.id} title={t("reviews."+review.id.toString()+".title")} stars={review.stars} half={review.half} description={t("reviews."+review.id.toString()+".description")}/>
+                            <ReviewCard key={review.id} title={review.id>9 ? review.title : t("reviews."+review.id.toString()+".title")} stars={review.stars} half={review.half} description={review.id>9 ? review.title : t("reviews."+review.id.toString()+".description")}/>
                         ))}
                     </div>
                 </div>
